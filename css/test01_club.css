@@ -1,0 +1,60 @@
+#bc {
+    background-color: #03addc;
+    height: 70px;
+    text-align: center;
+}
+.hahmlet-400 {
+  font-family: "Hahmlet", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+body {
+    background-color: rgb(237, 231, 193);   
+}
+table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 600px;
+    height: 250px;
+    font-size: 18px;
+}
+table, td, th {
+    
+    border: #0e9faf 1px solid;
+}
+form {
+   line-height:3 ;
+}
+textarea {
+    resize: none;
+    vertical-align: top;
+}
+button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    margin-right: 20px;
+    background-color: rgb(30, 158, 66);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+[type="range"]{
+    accent-color: red;
+}
+form {
+    font-family: "주아 체", serif;
+
+}
+.ad {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    margin-right: 20px;
+    background-color: rgb(30, 158, 66);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}

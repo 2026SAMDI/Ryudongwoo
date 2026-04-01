@@ -1,0 +1,106 @@
+#text1 {
+    color : rgb(144, 82, 49);
+}
+
+table, td, th {
+    
+    border-bottom: #944f38 4px solid;
+}
+table {
+    border-collapse: collapse;
+    width: 300px;
+    height: 250px;
+    font-size: 18px;
+}
+td, th {
+    /* font-size: 13px; */
+    width: 100px;
+    height: 30px;
+    
+}
+.f_size {
+    font-size: 1.5rem;
+}
+caption {
+    caption-side: bottom;
+    text-align: right;
+}
+#text2 {
+    color : rgb(144, 82, 49);
+    text-align: center;
+    
+}
+th {
+    background-color: rgba(144, 82, 49, 0.641);
+    
+}
+#text3 {
+    background-color: sandybrown;
+    text-align: center;
+}
+.colcolor{
+    background-color: rgb(237, 231, 193);
+}
+.colcolor1{
+    background-color: rgb(202, 227, 183);
+}
+
+.hahmlet-400 {
+  font-family: "Hahmlet", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+tfoot {
+    font-style: italic;
+    font-weight: 300;
+}
+.t_d {
+    text-decoration: underline;
+    width: 300px;
+    height: 70px;
+    background-color: salmon;
+    line-height: 70px;
+   /* letter-spacing: 16px;*/
+  
+}
+.t_s {
+    text-shadow: 5px 5px 5px #000000;
+}
+.line_hei {
+    line-height: 2;
+
+}
+
+.t_set {
+    margin-left: 10;
+    width: 500px;
+
+}
+form {
+   line-height:3 ;
+}
+fieldset {
+    width: 400px;
+    margin-bottom: 20px;
+}
+textarea {
+    resize: none;
+    vertical-align: top;
+}
+button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    margin-right: 20px;
+    background-color: rgb(42, 183, 110);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+[type="range"]{
+    accent-color: red;
+}

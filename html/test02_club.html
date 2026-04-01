@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D동아리</title>
+    <link rel="stylesheet" href="../css/test01_club.css">
+</head>
+<body>
+    <img src="../images/samdi.png" alt="3D동아리" style="float: left; width: 60px;">
+    <h1 class="hahmlet-400" style="font-size: 30px; margin-left: 70px;" id="bc">3D동아리 가입신청</h1>
+    <hr>
+    <p>3D 모델링과 게임개발 배우는 동아리입니다.</p>
+     <h2 id="margin_top">신청서 작성</h2>
+    <hr>
+    <form>
+        <fieldset>
+        <legend>학생 정보</legend>
+        <label for="name">학번 이름<input type="text" size="15.5" maxlength="5" autofocus required></label><br>
+        <label for="tel">연락처<input type="tel" id="tel" value="010-" ></label><br>
+        <label for="email">이메일<input type="email" id="email" placeholder="@포함"></label><br>
+    </fieldset>
+    <fieldset>
+        <legend>지원 정보</legend>
+        <label> 희망 전공<select sizemultiple>
+            <option value="3d_modeling">3D 모델링</option>
+            <option value="backend_development">백엔드 개발</option>
+            <option value="game_client">게임클라이언트</option>
+        </select></label>
+        <br>
+        <label >좋아하는 게임에 대한 설명<textarea name="requests" rows="2" cols="40" placeholder="이 곳에 입력"></textarea></label><br>
+    </fieldset>
+    <fieldset>
+        <legend>지원동기</legend>
+        <textarea name="motivation" rows="4" cols="50" placeholder="이 곳에 입력"></textarea>
+    </fieldset>
+         <button type="submit" value="신청하기">신청하기</button>
+    <button type="reset" value="다시작성">다시작성</button>
+    </form>
+    <div style="text-align: center;">
+    <a href="test01_club.html" target="_blank"><input type="button" value="이전 화면으로" width="100px" class="ad"></a>
+</div>
+
+    많은 지원 바랍니다.
+
+
+
+
+    </body>
+</html>
